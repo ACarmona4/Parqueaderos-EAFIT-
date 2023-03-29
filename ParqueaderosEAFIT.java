@@ -328,16 +328,6 @@ class InterfazParEAFIT extends JPanel implements ActionListener{
 
         } 
      
-
-
-    public static void main (String[] args) {
-        JFrame frame = new JFrame ("InterfazEAFIT");
-        frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
-        frame.getContentPane().add (new InterfazParEAFIT());
-        frame.pack();
-        frame.setVisible (true);
-        
-    }
 }
 
 
