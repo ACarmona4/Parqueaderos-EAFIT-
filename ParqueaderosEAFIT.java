@@ -192,19 +192,25 @@ class InterfazParEAFIT extends JPanel implements ActionListener{
 
         // TRADUCIR DIA
         if (dayOfWeek == DayOfWeek.MONDAY){
-            dia_label.setText(" Hoy es: LUNES ");
+            dia_label.setText(" Hoy es Lunes ");
         }
         if (dayOfWeek == DayOfWeek.TUESDAY){
-            dia_label.setText(" Hoy es: MARTES ");
+            dia_label.setText(" Hoy es Martes ");
         }
         if (dayOfWeek == DayOfWeek.WEDNESDAY){
-            dia_label.setText(" Hoy es: MIERCOLES ");
+            dia_label.setText(" Hoy es Miercoles ");
         }
         if (dayOfWeek == DayOfWeek.THURSDAY){
-            dia_label.setText(" Hoy es: JUEVES ");
+            dia_label.setText(" Hoy es Jueves ");
         }
         if (dayOfWeek == DayOfWeek.FRIDAY){
-            dia_label.setText(" Hoy es: VIERNES");
+            dia_label.setText(" Hoy es Viernes ");
+        }
+        if (dayOfWeek == DayOfWeek.SATURDAY){
+            dia_label.setText(" Hoy es Sabado ");
+        }
+        if (dayOfWeek == DayOfWeek.SUNDAY){
+            dia_label.setText(" Hoy es Domingo ");
         }
 
         recom_capacidad.setText("  Principal");
