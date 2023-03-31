@@ -288,43 +288,18 @@ class InterfazParEAFIT extends JPanel implements ActionListener{
             System.out.println(placa_entrada.getText());
             if(dayOfWeek.toString().equals("MONDAY") && (digito==6 || digito==9))
                 placa_boolean.setText("SI PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("TUESDAY") && (digito==5 || digito==7))
+            else if(dayOfWeek.toString().equals("TUESDAY") && (digito==5 || digito==7))
                 placa_boolean.setText("SI PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("WEDNESDAY") && (digito==1 || digito==4))
+            else if(dayOfWeek.toString().equals("WEDNESDAY") && (digito==1 || digito==4))
                 placa_boolean.setText("SI PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("THURSDAY") && (digito==8 || digito==10))
+            else if(dayOfWeek.toString().equals("THURSDAY") && (digito==8 || digito==10))
                 placa_boolean.setText("SI PICO Y PLACA");
-            
-            if(dayOfWeek.toString().equals("FRIDAY") && (digito==2 || digito==3))
+            else if(dayOfWeek.toString().equals("FRIDAY") && (digito==2 || digito==3))
                 placa_boolean.setText("SI PICO Y PLACA");
-
             else
-
-            if(dayOfWeek.toString().equals("MONDAY") && !(digito==6 || digito==9))
-                placa_boolean.setText("NO PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("TUESDAY") && !(digito==5 || digito==7))
-                placa_boolean.setText("NO PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("WEDNESDAY") && !(digito==1 || digito==4))
-                placa_boolean.setText("NO PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("THURSDAY") && !(digito==8 || digito==10))
-                placa_boolean.setText("NO PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("FRIDAY") && !(digito==2 || digito==3))
-                placa_boolean.setText("NO PICO Y PLACA");
-
-            if(dayOfWeek.toString().equals("SATURDAY"))
-                placa_boolean.setText("NO PICO Y PLACA");
-            
-                
-            if(dayOfWeek.toString().equals("SUNDAY"))
                 placa_boolean.setText("NO PICO Y PLACA");
             }
+
 
         } 
      
